@@ -22,7 +22,6 @@ body {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9); /* خلفية شفافة لزيادة وضوح النصوص */
     border-radius: 10px;
-    filter: blur(8p)
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
