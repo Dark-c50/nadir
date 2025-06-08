@@ -30,8 +30,6 @@ document.getElementById("userForm").addEventListener("submit", function(event) {
         localStorage.setItem('loggedIn', true);
 
         // التوجيه إلى لوحة التحكم مباشرة (تجاوز الخادم مؤقتًا)
-        setTimeout(() => {
-            window.location.href = "dashboard.html"; // الانتقال إلى صفحة لوحة التحكم بعد التحقق
-        }, 1000); // تأخير صغير لعرض رسالة النجاح أولًا
+        
     }
 });
